@@ -7,6 +7,7 @@
   <style>
     body {
         font-family: sans-serif;
+        background-color: aqua;
     }
 
     #game-board {
@@ -15,11 +16,17 @@
     }
 
     #game-board td {
-        border: solid 1px black;
-        height: 80px;
-        width: 80px;
+        border: solid 1px azure;
+        height: 200px;
+        width:200px;
         text-align: center;
         font-size: 45px;
+    }
+
+    .square {
+        background-image: url(https://media3.giphy.com/media/8abAbOrQ9rvLG/200.gif); 
+        background-position: center;
+        color: azure;
     }
   </style>
 </head>
@@ -31,19 +38,19 @@
 
 <table id="game-board" cellpadding="0" cellspacing="0">
   <tr>
-    <td id="cell-0"></td>
-    <td id="cell-1"></td>
-    <td id="cell-2"></td>
+    <td class="square" id="cell-0"></td>
+    <td class="square" id="cell-1"></td>
+    <td class="square" id="cell-2"></td>
   </tr>
   <tr>
-    <td id="cell-3"></td>
-    <td id="cell-4"></td>
-    <td id="cell-5"></td>
+    <td class="square" id="cell-3"></td>
+    <td class="square" id="cell-4"></td>
+    <td class="square" id="cell-5"></td>
   </tr>
   <tr>
-    <td id="cell-6"></td>
-    <td id="cell-7"></td>
-    <td id="cell-8"></td>
+    <td class="square" id="cell-6"></td>
+    <td class="square" id="cell-7"></td>
+    <td class="square" id="cell-8"></td>
   </tr>
 </table>
 
